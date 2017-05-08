@@ -1,14 +1,14 @@
 body {
   margin: 0 auto;
-  background-color: #3A8B6E;
-  color: #E0F3D3; }
+  background-color: #white;
+  color: #5e6a5a; }
 
 body a {
-  color: #F7D6DE;
+  color: #857177;
   text-decoration: none; }
 
 body a:hover {
-  color: #CF7D56; }
+  color: #cf7d56; }
 
 body .content {
   width: 70%;
@@ -26,18 +26,19 @@ body header {
 
 @media (max-width: 445px) {
   body header h1 {
-    border-top: solid #2bdcb1;
-    border-bottom: solid #2bdcb1; } }
+    border-top: solid #5e6a5a;
+    border-bottom: solid #5e6a5a; } }
 
 @media (min-width: 445px) {
   body header h1 {
-    border-right: solid #2bdcb1;
+    border-right: solid #5e6a5a;
     padding-right: .5em; } }
 
 body header h1 {
   margin-top: .5em;
   margin-bottom: .5em;
-  font-family: 'Merriweather', serif; }
+  font-family: 'Merriweather', serif;
+  color: #8e784d; }
 
 body header .nav {
   display: flex;

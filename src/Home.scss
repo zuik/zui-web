@@ -1,14 +1,12 @@
 $wd: 445px;
-$bgcolor: #3A8B6E;
+$bgcolor: #white;
+//Need to regenerate an actual pallette
+$color3: #69a298;
+$color4: #857177;
+$color5: #cf7d56;
+$color6: #8e784d;
 
-$color1: #2bdcb1;
-$color2: #33cba6;
-$color3: #7fc2b7;
-$color4: #F7D6DE;
-$color5: #CF7D56;
-$color6: #d4b677;
-
-$fgcolor: #E0F3D3;
+$fgcolor: #5e6a5a;
 
 body {
   margin: 0 auto;
@@ -36,13 +34,13 @@ body {
     justify-content: center;
     @media(max-width: $wd) {
       h1 {
-        border-top: solid $color1;
-        border-bottom: solid $color1;
+        border-top: solid $fgcolor;
+        border-bottom: solid $fgcolor;
       }
     }
     @media(min-width: $wd) {
       h1 {
-        border-right: solid $color1;
+        border-right: solid $fgcolor;
         padding-right: .5em;
       }
     }
@@ -50,6 +48,7 @@ body {
       margin-top: .5em;
       margin-bottom: .5em;
       font-family: 'Merriweather', serif;
+      color: $color6;
     }
     .nav {
       display: flex;
