@@ -4,6 +4,7 @@ import Header from './Header';
 import About from './About';
 import Projects from './Projects';
 import Thoughts from './Thoughts';
+// import GQL from './GQL';
 import './Home.css';
 
 class Home extends Component {
@@ -11,9 +12,11 @@ class Home extends Component {
     return (<Router>
       <div className="container">
           <Header />
-          <Route path="/about/" component={About} />
+          {/*<Route path="/about/" component={About} />
           <Route path="/projects/" component={Projects} />
-          <Route path="/thoughts/" component={Thoughts} />
+          <Route path="/thoughts/" component={Thoughts} />*/}
+          <div className="about-box"><About /></div>
+          <div className="projects"><Projects /></div>
       </div>
       </Router>
     );
